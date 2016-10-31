@@ -1,0 +1,30 @@
+{{#each result.teams}}
+	*{{summary}}* \n
+{{/each}}
+{{#each result.escalation_policies}}
+	*{{summary}}* \n
+{{/each}}
+{{#each result}}
+	{{#if summary}}
+		*Escalation: {{name}}* \n \n
+		{{#each oncall}}
+			```
+			Name: {{name}} \n
+			{{#each contact_methods}}
+				{{#if label}}
+					{{label}}: {{#if country_code}} +{{country_code}}{{/if}} {{address}} \n
+				{{/if}}
+			{{/each}}
+			{{#if job_title}}
+				Title: {{job_title}} \n
+			{{/if}}
+			``` \n
+		{{/each}}
+	{{/if}}
+{{/each}}
+{{#if result.not_found}}
+	Nothing found
+{{/if}}
+{{#if result.too_many}}
+	Too many
+{{/if}}

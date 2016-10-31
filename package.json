@@ -1,0 +1,16 @@
+{
+  "name": "pagerdutybot",
+  "version": "1.0.0",
+  "description": "A slack bot for pager duty",
+  "main": "index.js",
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "async": "2.1.2",
+    "handlebars": "4.0.5",
+    "lodash": "4.15.0",
+    "slack-quick-bots": "3.0.5"
+  }
+}
