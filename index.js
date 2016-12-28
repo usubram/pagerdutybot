@@ -41,8 +41,8 @@ var config = {
       },
       oncall: {
         commandType: 'DATA',
-        allowedParam: ['*'],
-        helpText: '_Usage: oncall escalation-name (full or part of escalation name)_ \\n',
+        allowedParam: ['primary', 'secondary', 'all'],
+        helpText: '_Usage: oncall primary escalation-name (full or part of escalation name)_ \\n',
         template: function() {
           return handlebars.compile(template);
         },

@@ -1,13 +1,16 @@
 {{#each result.teams}}
-	*{{summary}}* \n
+	{{summary}} \n
 {{/each}}
 {{#each result.escalation_policies}}
-	*{{summary}}* \n
+	{{summary}} \n
 {{/each}}
 {{#each result}}
 	{{#if summary}}
-		*Escalation: {{name}}* \n \n
+		*Escalation: {{name}}* \n
 		{{#each oncall}}
+			{{#if level}}
+			*Level {{level}}* \n
+			{{/if}}
 			```
 			Name: {{name}} \n
 			{{#each contact_methods}}
@@ -23,8 +26,14 @@
 	{{/if}}
 {{/each}}
 {{#if result.not_found}}
-	Nothing found
+	I did not find anything by that name.
 {{/if}}
 {{#if result.too_many}}
-	Too many
+	Too many results.
+{{/if}}
+{{#if result.no_users}}
+	On call not assigned at this level.
+{{/if}}
+{{#if result.min_len_err}}
+	I need minimum of 3 characters to help you.
 {{/if}}
