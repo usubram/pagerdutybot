@@ -16,7 +16,7 @@ var config = {
       team: {
         commandType: 'DATA',
         allowedParam: ['*'],
-        helpText: '_Usage: team team-name (full or part of team name)_ \\n',
+        helpText: 'Usage: _team team-name_ (full or part of team name) \\n',
         template: function() {
           return handlebars.compile(template);
         },
@@ -29,7 +29,7 @@ var config = {
       escalation: {
         commandType: 'DATA',
         allowedParam: ['*'],
-        helpText: '_Usage: escalation escalation-name (full or part of escalation name)_ \\n',
+        helpText: 'Usage: _escalation escalation-name_ (full or part of escalation name) \\n',
         template: function() {
           return handlebars.compile(template);
         },
@@ -42,12 +42,25 @@ var config = {
       oncall: {
         commandType: 'DATA',
         allowedParam: ['primary', 'secondary', 'all'],
-        helpText: '_Usage: oncall primary escalation-name (full or part of escalation name)_ \\n',
+        helpText: 'Usage: _oncall primary escalation-name_ (full or part of escalation name) \\n',
         template: function() {
           return handlebars.compile(template);
         },
         data: function(input, options, callback) {
           service.getOnCall(input.params, apikey, function(err, data) {
+            callback({ result: data });
+          });
+        }
+      },
+      user: {
+        commandType: 'DATA',
+        allowedParam: ['*'],
+        helpText: 'Usage: _user name or email_ \\n',
+        template: function() {
+          return handlebars.compile(template);
+        },
+        data: function(input, options, callback) {
+          service.getUserFromName(input.params, apikey, function(err, data) {
             callback({ result: data });
           });
         }
