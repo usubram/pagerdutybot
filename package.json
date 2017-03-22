@@ -11,6 +11,6 @@
     "async": "2.1.2",
     "handlebars": "4.0.5",
     "lodash": "4.15.0",
-    "slack-quick-bots": "4.0.6"
+    "slack-quick-bots": "4.0.9"
   }
 }
