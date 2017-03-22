@@ -16,7 +16,7 @@ var config = {
       team: {
         commandType: 'DATA',
         allowedParam: ['*'],
-        helpText: 'Usage: _team team-name_ (full or part of team name) \\n',
+        helpText: '    → _team team-name_ (full or part of team name)',
         template: function() {
           return handlebars.compile(template);
         },
@@ -29,7 +29,7 @@ var config = {
       escalation: {
         commandType: 'DATA',
         allowedParam: ['*'],
-        helpText: 'Usage: _escalation escalation-name_ (full or part of escalation name) \\n',
+        helpText: '    → _escalation escalation-name_ (full or part of escalation name)',
         template: function() {
           return handlebars.compile(template);
         },
@@ -42,7 +42,7 @@ var config = {
       oncall: {
         commandType: 'DATA',
         allowedParam: ['primary', 'secondary', 'all'],
-        helpText: 'Usage: _oncall primary escalation-name_ (full or part of escalation name) \\n',
+        helpText: '    → _oncall primary escalation-name_ (full or part of escalation name)',
         template: function() {
           return handlebars.compile(template);
         },
@@ -55,7 +55,7 @@ var config = {
       user: {
         commandType: 'DATA',
         allowedParam: ['*'],
-        helpText: 'Usage: _user name or email_ \\n',
+        helpText: '    → _user name or email_',
         template: function() {
           return handlebars.compile(template);
         },
