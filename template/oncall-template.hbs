@@ -35,22 +35,28 @@
 {{#each result.oncall}}
 	{{#if summary}}
 		*Escalation: {{name}}* \n
-		{{#each oncall}}
-			{{#if level}}
-			*Level {{level}}* \n
-			{{/if}}
-			```
-			Name: {{name}} \n
-			{{#each contact_methods}}
-				{{#if label}}
-					{{label}}: {{#if country_code}} +{{country_code}}{{/if}} {{address}} \n
+		{{#if oncall}}
+			{{#each oncall}}
+				{{#if level}}
+				*Level {{level}}* \n
 				{{/if}}
+				```
+				Name: {{name}} \n
+				{{#each contact_methods}}
+					{{#if label}}
+						{{label}}: {{#if country_code}} +{{country_code}}{{/if}} {{address}} \n
+					{{/if}}
+				{{/each}}
+				{{#if job_title}}
+					Title: {{job_title}} \n
+				{{/if}}
+				``` \n
 			{{/each}}
-			{{#if job_title}}
-				Title: {{job_title}} \n
-			{{/if}}
+		{{else}}
+			```
+			None assigned at this level.
 			``` \n
-		{{/each}}
+		{{/if}}
 	{{/if}}
 {{/each}}
 {{#if result.user_not_found}}
