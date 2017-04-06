@@ -6,9 +6,21 @@ const path = require('path');
 const fs = require('fs');
 const template = fs.readFileSync(path.join(__dirname, 'template/oncall-template.hbs'), 'utf8');
 const service = require('./lib/service');
+const winston = require('winston');
 
 const args = process.argv.slice(2);
 const apikey = args[1];
+const proxy = args[2];
+
+var logger = new winston.Logger({
+  level: 'info',
+  transports: [
+    new winston.transports.File({
+      filename: 'log/pagerdutybot.log',
+      timestamp: true
+    })
+  ]
+});
 
 var config = {
   bots: [{
@@ -68,7 +80,11 @@ var config = {
     },
     schedule: true,
     botToken: args[0] || ''
-  }]
+  }],
+  proxy: {
+    url: proxy || ''
+  },
+  logger: logger
 };
 
 var slackBot = new SlackBot(config);

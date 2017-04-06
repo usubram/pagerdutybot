@@ -1,0 +1,64 @@
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-05T06:37:50.559Z"}
+{"level":"info","message":"Atempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-05T06:37:50.561Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-05T06:37:50.578Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-05T06:37:51.146Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"help","ts":"1491374292.613797","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message: ","level":"info","timestamp":"2017-04-05T06:38:13.577Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"stop","ts":"1491374294.614077","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message: ","level":"info","timestamp":"2017-04-05T06:38:15.897Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"top","ts":"1491374906.704626","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message: ","level":"info","timestamp":"2017-04-05T06:48:27.828Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"stop","ts":"1491374908.704948","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message: ","level":"info","timestamp":"2017-04-05T06:48:30.028Z"}
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-05T06:58:39.107Z"}
+{"level":"info","message":"Atempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-05T06:58:39.110Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-05T06:58:39.124Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-05T06:58:39.827Z"}
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-05T07:00:28.909Z"}
+{"level":"info","message":"Attempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-05T07:00:28.911Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-05T07:00:28.926Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-05T07:00:29.498Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"help","ts":"1491375664.832000","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message: ","level":"info","timestamp":"2017-04-05T07:01:05.240Z"}
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-06T05:28:33.675Z"}
+{"level":"info","message":"Attempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-06T05:28:33.678Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-06T05:28:33.693Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-06T05:28:34.272Z"}
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-06T05:29:45.885Z"}
+{"level":"info","message":"Attempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-06T05:29:45.887Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-06T05:29:45.902Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-06T05:29:46.487Z"}
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-06T05:30:16.850Z"}
+{"level":"info","message":"Attempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-06T05:30:16.852Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-06T05:30:16.867Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-06T05:30:17.412Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"help","ts":"1491456638.795610","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message: ","level":"info","timestamp":"2017-04-06T05:30:40.425Z"}
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-06T05:34:46.708Z"}
+{"level":"info","message":"Attempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-06T05:34:46.711Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-06T05:34:46.726Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-06T05:34:47.303Z"}
+{"type":"message","channel":"C0HJZTD36","user":"U0VM3V6G3","text":"<@U2U9RBV8R> helo","ts":"1491456924.141801","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message2: ","level":"info","timestamp":"2017-04-06T05:35:25.914Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"direct","ts":"1491456934.827016","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message2: ","level":"info","timestamp":"2017-04-06T05:35:36.260Z"}
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-06T05:56:06.527Z"}
+{"level":"info","message":"Attempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-06T05:56:06.530Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-06T05:56:06.545Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-06T05:56:07.423Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"help","ts":"1491458183.965719","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message ","level":"info","timestamp":"2017-04-06T05:56:25.367Z"}
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-06T06:23:21.648Z"}
+{"level":"debug","message":"Setting up connection for bots","timestamp":"2017-04-06T06:23:21.650Z"}
+{"level":"info","message":"Attempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-06T06:23:21.650Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-06T06:23:21.666Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-06T06:23:22.236Z"}
+{"type":"message","channel":"C0HJZTD36","user":"U0VM3V6G3","text":"help","ts":"1491459820.429775","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"Received message: ","level":"debug","timestamp":"2017-04-06T06:23:40.610Z"}
+{"level":"info","message":"Bot connection closed for  t-bots","timestamp":"2017-04-06T06:39:09.293Z"}
+{"level":"debug","message":"Socket connection closed during ping for  t-bots","timestamp":"2017-04-06T06:39:09.630Z"}
+{"level":"info","message":"No connection, will attempt to retry for bot token D2dMs in 0.4 seconds","timestamp":"2017-04-06T06:39:09.631Z"}
+{"level":"info","message":"Retrying to connect for  D2dMs","timestamp":"2017-04-06T06:39:10.037Z"}
+{"level":"info","message":"Attempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-06T06:39:10.037Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-06T06:39:10.839Z"}
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-06T07:03:49.198Z"}
+{"level":"info","message":"Attempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-06T07:03:49.201Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-06T07:03:49.217Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-06T07:03:49.927Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"help","ts":"1491462235.545428","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message ","level":"info","timestamp":"2017-04-06T07:03:56.235Z"}
+{"level":"info","message":"Bots instantiated successfully","timestamp":"2017-04-06T07:04:08.473Z"}
+{"level":"info","message":"Attempting to connect bot with token ending with ... D2dMs","timestamp":"2017-04-06T07:04:08.475Z"}
+{"level":"info","message":"Data directory already exist, so not creating","timestamp":"2017-04-06T07:04:08.491Z"}
+{"level":"info","message":"Socket connection successfully made for  t-bots","timestamp":"2017-04-06T07:04:09.387Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"help","ts":"1491462252.548149","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message ","level":"info","timestamp":"2017-04-06T07:04:12.596Z"}
+{"type":"message","channel":"D2U7WA3PD","user":"U0VM3V6G3","text":"team","ts":"1491462254.548538","source_team":"T0GGDKVDE","team":"T0GGDKVDE","message":"processed message ","level":"info","timestamp":"2017-04-06T07:04:14.926Z"}
