@@ -12,6 +12,9 @@
 		```
 		Name: {{name}} \n
 		{{#each contact_methods}}
+			{{#if email}}
+				Slack: <@{{idFromEmail address}}> {{presenceFromEmail address}} \n
+			{{/if}}
 			{{#if label}}
 				{{label}}: {{#if country_code}} +{{country_code}}{{/if}} {{address}} \n
 			{{/if}}
@@ -43,6 +46,9 @@
 				```
 				Name: {{name}} \n
 				{{#each contact_methods}}
+					{{#if email}}
+						Slack: <@{{idFromEmail address}}> {{presenceFromEmail address}} \n
+					{{/if}}
 					{{#if label}}
 						{{label}}: {{#if country_code}} +{{country_code}}{{/if}} {{address}} \n
 					{{/if}}

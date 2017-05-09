@@ -1,7 +1,6 @@
 'use strict';
 
 const SlackBot = require('slack-quick-bots');
-const handlebars = require('handlebars');
 const path = require('path');
 const fs = require('fs');
 const template = fs.readFileSync(path.join(__dirname, 'template/oncall-template.hbs'), 'utf8');
@@ -29,9 +28,7 @@ var config = {
         commandType: 'DATA',
         allowedParam: ['*'],
         helpText: '    → _team <team-name>_ (full or part of team name)',
-        template: function() {
-          return handlebars.compile(template);
-        },
+        template: template,
         data: function(input, options, callback) {
           service.getTeams(input.params, apikey, function(err, data) {
             callback({ result: data });
@@ -42,9 +39,7 @@ var config = {
         commandType: 'DATA',
         allowedParam: ['*'],
         helpText: '    → _escalation <escalation-name>_ (full or part of escalation name)',
-        template: function() {
-          return handlebars.compile(template);
-        },
+        template: template,
         data: function(input, options, callback) {
           service.getEscalations(input.params, apikey, function(err, data) {
             callback({ result: data });
@@ -55,9 +50,7 @@ var config = {
         commandType: 'DATA',
         allowedParam: ['primary', 'secondary', 'all'],
         helpText: '    → _oncall primary <escalation-name>_ (full or part of escalation name)',
-        template: function() {
-          return handlebars.compile(template);
-        },
+        template: template,
         data: function(input, options, callback) {
           service.getOnCall(input.params, apikey, function(err, data) {
             callback({ result: data });
@@ -68,9 +61,7 @@ var config = {
         commandType: 'DATA',
         allowedParam: ['*'],
         helpText: '    → _user <name or email>_',
-        template: function() {
-          return handlebars.compile(template);
-        },
+        template: template,
         data: function(input, options, callback) {
           service.getUserFromName(input.params, apikey, function(err, data) {
             callback({ result: data });
