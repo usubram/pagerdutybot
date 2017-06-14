@@ -69,6 +69,11 @@ var config = {
         }
       }
     },
+    slackApi: {
+      user: {
+        exclude: true
+      }
+    },
     schedule: true,
     botToken: args[0] || ''
   }],

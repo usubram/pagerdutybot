@@ -10,7 +10,7 @@
   "dependencies": {
     "async": "2.1.2",
     "lodash": "4.15.0",
-    "slack-quick-bots": "5.0.2",
+    "slack-quick-bots": "5.0.8",
     "winston": "2.3.1"
   }
 }
