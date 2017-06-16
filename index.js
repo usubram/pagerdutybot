@@ -71,7 +71,8 @@ var config = {
     },
     slackApi: {
       user: {
-        exclude: true
+        presence: true,
+        limit: 999
       }
     },
     schedule: true,
